@@ -2,7 +2,7 @@ package Placement_Ques;
 
 import java.util.Arrays;
 
-//Given an array A[] and a number x, check for pair in A[] with sum as x
+//Given an array A[] and a number n, check for pair in A[] with sum as n
 public class Two_Sum {
 	
 	public static boolean ts(int n, int A[]) {
