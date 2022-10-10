@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class StackImplArrays {
     int[] items=new int[5];
     int count=0;
     public void push(int item){
@@ -35,7 +35,7 @@ public class Main {
     public static void main(String args[]){
 //        count=0
 //        10 20 0 0 0
-        Main obj=new Main();
+        StackImplArrays obj=new StackImplArrays();
         obj.push(10);
         obj.push(20);
         obj.push(30);
