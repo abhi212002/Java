@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class ArrayQueue {
     static int F,R;
     static int a[]=new int[5];
     static int count;//to keep track of no of elements in queue
@@ -35,7 +35,7 @@ public class Main {
         return Arrays.toString(a);
     }
     public static void main(String args[]){
-        Main q=new Main();
+        ArrayQueue q=new ArrayQueue();
         q.enqueue(10);
         q.enqueue(30);
         q.enqueue(20);
